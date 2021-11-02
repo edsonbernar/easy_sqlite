@@ -1,11 +1,22 @@
 
+easy_sqlite
+-
 Simples ORM Python para manipulação de base Sqlite em operações de CRUD, quando não há a necessidade de se incorporar ao deploy outros orm's complexos.
 
 Dependências:
 
 - sqlite3
 
+Roadmap
+-
+- Testes unitáios
+- Implementar crição de base e tabelas a partir das classes model
+- Documentação
+
+
+
 Exemplos de uso
+-
 
 ```
 import sqlite3
