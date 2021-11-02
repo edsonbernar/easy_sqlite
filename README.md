@@ -9,7 +9,7 @@ Dependências:
 
 Roadmap
 -
-- Testes unitáios
+- Testes unitários
 - Implementar crição de base e tabelas a partir das classes model
 - Documentação
 
@@ -24,6 +24,7 @@ import sqlite3
 from easy_sqlite import Base, Column, String, Char, Integer, Text, \
     Date, Numeric, Boolean, ForeignKey, Relation
 
+# Definindo class model
 class Produtos(Base):
     __table__ = "produtos"
     
@@ -37,17 +38,15 @@ prod = Produtos(dbconnection=dbconnection, autocommit=True))
 prod.descric = 'COMPUTADOR' 
 prod.preco = 100.00
 prod.save()
-```
 
-Alteração
-```
+# Alteração
+
 prod.load(id)
 prod.preco = 50.00
 prod.save()
-```
 
-Exclusão
-```
+# Exclusão
+
 prod.load(id)
 prod.delete()
 ```
