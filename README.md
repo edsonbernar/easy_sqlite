@@ -28,7 +28,7 @@ prod.preco = 100.00
 prod.save()
 ```
 
-Para carregar e alterar
+Alteração
 ```
 prod.load(id)
 prod.preco = 50.00
