@@ -1,7 +1,7 @@
 
 easy_sqlite
 -
-Simples ORM Python para manipulação de base Sqlite em operações de CRUD, quando não há a necessidade de se incorporar ao deploy outros orm's complexos.
+Simples ORM Python para manipulação de base Sqlite em operações de CRUD, quando não há a necessidade de se incorporar ao deploy um orm complexo.
 
 Dependências:
 
